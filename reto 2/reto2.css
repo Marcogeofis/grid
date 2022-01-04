@@ -1,0 +1,21 @@
+.container {
+    background-color: #00bcd4;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-auto-rows: 100px;
+    height: 300px;
+    place-content: center;
+}
+.item {
+    border: 8px solid #00bcd4;
+    background-color: green;
+    font-size: 2rem;
+}
+.number_position{
+    position: relative;
+    top: 56px;
+    left: 60px;
+    width: 24px;
+    height: 28px;
+    background-color: mediumseagreen;
+}

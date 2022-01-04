@@ -1,0 +1,46 @@
+.container{
+    background-color: greenyellow;
+    display: grid;
+    height: 400px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas: "num1 num2 num2"
+        "num3 num3 num4" 
+        "num5 num6 num7";
+    place-content: center;
+}
+.item{
+    border: 5px solid #145A32;
+    background-color: mediumseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-1{
+    background-color: mediumvioletred;
+    grid-area: num1;
+}
+.item-2{
+    background-color: #F1C40F;
+    grid-area: num2;
+}
+.item-3{
+    background-color: #3498DB;
+    grid-area:num3;
+}
+.item-4{
+    background-color: #7B241C;
+    grid-area: num4;
+}
+.item-5{
+    background-color: #EC7063;
+    grid-area: num5;
+}
+.item-6{
+    background-color: #F5B7B1;
+    grid-area: num6;
+}
+.item-7{
+    background-color: #76448A;
+    grid-area: num7;
+}
